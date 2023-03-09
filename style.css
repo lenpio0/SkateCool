@@ -11,3 +11,14 @@
 #all-boards {
     flex:auto         
 }
+
+#footer {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-icons {
+    width: 42px;
+    height: 42px;
+    margin-left: 15px;
+}
