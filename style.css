@@ -9,5 +9,13 @@
     height: 200px;
 }
 #all-boards {
-    flex:auto         
+    display: flex;
+    justify-content: space-evenly;
+}
+#all-boards figure {
+    width: 33%;
+}
+#all-boards figure figcaption, #all-boards figure img {
+    width: 100%;
+    text-align: center;
 }
