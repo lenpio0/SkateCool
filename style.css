@@ -9,6 +9,7 @@
     height: 200px;
 }
 #all-boards {
+<<<<<<< HEAD
     flex:auto         
 }
 
@@ -22,3 +23,15 @@
     height: 42px;
     margin-left: 15px;
 }
+=======
+    display: flex;
+    justify-content: space-evenly;
+}
+#all-boards figure {
+    width: 33%;
+}
+#all-boards figure figcaption, #all-boards figure img {
+    width: 100%;
+    text-align: center;
+}
+>>>>>>> 2e56feb6a7f682f65cbc3f220dfa592f8235b95b
