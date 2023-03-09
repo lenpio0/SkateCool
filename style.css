@@ -1,8 +1,13 @@
-h1 {
-    color: rgb(200, 0, 0);
-}
-
 #logo-header {
     height: 150px;
     margin: 0 0 -50px -5px;
+}
+#img-accueil {
+    border: 2px black dotted;
+}
+.img-board {
+    height: 200px;
+}
+#all-boards {
+    flex:auto         
 }
