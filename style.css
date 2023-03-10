@@ -1,3 +1,17 @@
+/*
+STYLE :
+
+Couleurs
+lien coolors : 
+background color dark theme : #121212 
+main color : #bb85fe
+main white : #EEEEEE
+
+Polices : 
+
+*/
+
+
 #logo-header {
     height: 150px;
     margin: 0 0 -50px -5px;
@@ -45,13 +59,6 @@
     display: block;
 }
 
-.header-icons {
-    width: 42px;
-    height: 42px;
-    margin-left: 40px;
-    float: right;
-}
-
 #logo-header {
     float: left;
 }
@@ -62,7 +69,7 @@
 }
 
 header {
-    background-color:yellow;
+    background-color:#121212 ;
 }
 
 header::after {
@@ -72,7 +79,7 @@ header::after {
 }
  
 body {
-    background-color:green;
+    background-color:#121212;
     margin: 0;
 }
 
@@ -95,7 +102,6 @@ nav li {
     margin-left: 20px;
     margin-top: 40px;
     display: inline-block;
-    color: red;
     position: relative;
     z-index: 1;
 }
@@ -110,15 +116,30 @@ nav li {
 
 
 nav a {
-    color:red;
+    color:#EEEEEE;
     text-decoration: none;
     text-transform: uppercase;
     z-index: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav a:hover {
-    color:green;
     z-index: 1;
+    color:#bb85fe
+}
+
+.header-icons {
+    margin-left: 40px;
+    float: right;
+    transition: ease-in-out 100ms;
+    filter: invert(100%) sepia(11%) saturate(4807%) hue-rotate(197deg) brightness(106%) contrast(106%);
+}
+
+.header-icons:hover {
+    filter: invert(60%) sepia(61%) saturate(2529%) hue-rotate(220deg) brightness(101%) contrast(99%);
+    transition: ease-in-out 100ms;
+    animation-direction: alternate ;
+    transform: scale(1.2);
 }
 
 nav a::before {
@@ -126,11 +147,12 @@ nav a::before {
     display: block;
     height: 5px;
     width: 100%;
-    background-color: aqua;
+    background-color: #bb85fe;
     z-index: 1;
     transition: all ease-in-out 250ms;
     position: absolute;
     top: -8px;
+    border-radius: 30px;
     width: 0%;
 }
 
