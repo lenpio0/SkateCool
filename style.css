@@ -45,14 +45,11 @@
     width: 42px;
     height: 42px;
     margin-left: 30px;
-    display:flex;
+    float: right;
 }
 
 #logo-header {
-    justify-content: center;
-    display: flex;
-    text-align: center;
-    margin: auto;
+    float: left;
 }
 
 .header-container {
@@ -64,6 +61,32 @@ header {
     background-color:yellow;
 }
 
+header::after {
+    content : '';
+    display: table;
+    clear: both;
+}
+ 
 body {
     background-color:black;
+    margin: 0;
+}
+
+#img-accueil {
+    width: 100%;
+}
+
+nav {
+    margin-left:50% ;
+    margin-right:50% ;
+}
+
+nav ul {
+    margin: 0;
+    padding : 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
 }
