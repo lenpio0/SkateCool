@@ -92,7 +92,12 @@ nav ul {
 }
 
 nav li {
-    float: left;
     margin-left: 20px;
     margin-top: 40px;
+    display: inline-block;
+}
+#top {
+    background-image: url("Accueil-Skate.jpg");
+    background-size: 100%;
+    height: 1200px;
 }
