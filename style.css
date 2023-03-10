@@ -16,6 +16,11 @@
     justify-content: end;
 }
 
+#header-icons-section {
+    display: flex;
+    justify-content: end;
+}
+
 .footer-icons {
     width: 42px;
     height: 42px;
@@ -34,3 +39,17 @@
     margin-right: auto;
     display: block;
 }
+
+.header-icons {
+    width: 42px;
+    height: 42px;
+    margin-left: 15px;
+}
+
+#logo-header {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin: auto
+}
+
