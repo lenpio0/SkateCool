@@ -22,7 +22,7 @@
     margin-left: 10%;
     position: relative;
     margin-right: 5%;
-    padding-top: 25px;
+    margin-top: -20px;
 }
 
 .footer-icons {
@@ -72,7 +72,7 @@ header::after {
 }
  
 body {
-    background-color:black;
+    background-color:green;
     margin: 0;
 }
 
@@ -95,9 +95,44 @@ nav li {
     margin-left: 20px;
     margin-top: 40px;
     display: inline-block;
+    color: red;
+    position: relative;
+    z-index: 1;
 }
+
 #top {
     background-image: url("Accueil-Skate.jpg");
     background-size: 100%;
     height: 1200px;
+}
+
+
+nav a {
+    color:red;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+nav a:hover {
+    color:green;
+    z-index: 1;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: aqua;
+    z-index: 1;
+    transition: all ease-in-out 250ms;
+    position: absolute;
+    top: -8px;
+    width: 0%;
+}
+
+nav a:hover::before {
+    width: 100%;
+    z-index: 1;
 }
