@@ -8,7 +8,8 @@
 
 #all-boards {
     display: flex;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;  
+    flex-wrap: wrap; 
 }
 
 #footer {
@@ -144,6 +145,7 @@ nav a:hover::before {
     border: 3px white solid; 
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 60px;
 }
 
 #top div * {
@@ -152,6 +154,40 @@ nav a:hover::before {
 }
 
 #all-boards h2 {
-    display: block;
     width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.ajout-panier {
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    border: white 3px solid;
+    background-color: #008000;
+    z-index: 999;
+    border-radius: 5px;
+    padding: 5px;
+    transition: transform .2s;
+}
+
+.ajout-panier:hover {
+    transform: scale(1.2);
+}
+
+#all-boards p {
+    text-align: center;
+    color: white;
+}
+
+#all-boards div {
+    border: white 3px solid;
+    padding: 0 0 20px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
