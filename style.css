@@ -52,4 +52,9 @@
     text-align: center;
     margin: auto
 }
-
+#img-accueil {
+    width: 100%;
+}
+body {
+    margin: 0;
+}
