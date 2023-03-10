@@ -83,10 +83,19 @@ nav {
 
 nav ul {
     margin: 0;
+<<<<<<< Updated upstream
     padding : 0;
     list-style: none;
 }
 
 nav li {
     display: inline-block;
+=======
+}
+#top {
+    background-image: url("Accueil-Skate.jpg");
+
+    background-size: 100%;
+    height: 1200px;
+>>>>>>> Stashed changes
 }
