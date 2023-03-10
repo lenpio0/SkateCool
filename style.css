@@ -150,3 +150,8 @@ nav a:hover::before {
     text-align: center;
     font-size: 30px;
 }
+
+#all-boards h2 {
+    display: block;
+    width: 100%;
+}
