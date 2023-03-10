@@ -19,6 +19,10 @@
 #header-icons-section {
     display: flex;
     justify-content: end;
+    margin-left: 10%;
+    position: relative;
+    margin-right: 5%;
+    padding-top: 25px;
 }
 
 .footer-icons {
@@ -44,7 +48,7 @@
 .header-icons {
     width: 42px;
     height: 42px;
-    margin-left: 30px;
+    margin-left: 40px;
     float: right;
 }
 
@@ -77,8 +81,8 @@ body {
 }
 
 nav {
-    margin-left:50% ;
-    margin-right:50% ;
+    margin-left: 40rem;
+    margin-right: 40rem;
 }
 
 nav ul {
@@ -88,5 +92,7 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
 }
