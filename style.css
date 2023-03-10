@@ -98,6 +98,26 @@ nav li {
 }
 #top {
     background-image: url("Accueil-Skate.jpg");
-    background-size: 100%;
-    height: 1200px;
+    background-size: 110%;
+    height: 900px;
+    color: white;
+    padding: 50px 0;
+}
+#top * {
+    width: 60%;
+    text-align: center;
+    margin: 25px 45px;
+    /*background-color: rgba(0,0,0, 0.4);
+    color: white;
+    border: 3px solid #f1f1f1;*/
+}
+#top p {
+    font-size: 25px;
+
+}
+#top h1 {
+    font-size: 50px;
+}
+#top h2 {
+    font-size: 30px;
 }
