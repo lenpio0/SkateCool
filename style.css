@@ -1,3 +1,20 @@
+<<<<<<< Updated upstream
+=======
+/*5
+STYLE :
+
+Couleurs
+lien coolors : 
+background color dark theme : #121212 
+main color : #bb85fe
+main white : #EEEEEE
+
+Polices : 
+
+*/
+
+
+>>>>>>> Stashed changes
 #logo-header {
     height: 150px;
     margin: 0 0 -50px -5px;
@@ -105,7 +122,7 @@ nav li {
     background-image: url("Accueil-Skate.jpg");
     background-size: 110%;
     height: 900px;
-    color: white;
+    color: #EEEEEE;
     padding: 120px 0;
 }
 
@@ -142,7 +159,7 @@ nav a:hover::before {
 
 #top div {
     width: 60%;
-    border: 3px white solid; 
+    border: 3px #EEEEEE solid; 
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.5);
     margin: 0 60px;
@@ -157,7 +174,7 @@ nav a:hover::before {
     width: 100%;
     text-align: center;
     font-size: 40px;
-    color: white;
+    color: #EEEEEE;
 }
 
 .ajout-panier {
@@ -165,11 +182,11 @@ nav a:hover::before {
     display: block;
     width: 70%;
     text-align: center;
-    color: whitesmoke;
+    color: #EEEEEE;
     text-decoration: none;
     font-size: 25px;
-    border: white 3px solid;
-    background-color: #008000;
+    border: #EEEEEE 3px solid;
+    background-color: #bb85fe;
     z-index: 999;
     border-radius: 5px;
     padding: 5px;
@@ -182,11 +199,11 @@ nav a:hover::before {
 
 #all-boards p {
     text-align: center;
-    color: white;
+    color: #EEEEEE;
 }
 
 #all-boards div {
-    border: white 3px solid;
+    border: #EEEEEE 3px solid;
     padding: 0 0 20px 0;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
