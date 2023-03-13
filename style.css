@@ -9,6 +9,8 @@ main white : #EEEEEE
 
 Polices : 
 h1:Permanent Marker
+h2:alatsi
+p: 
 
 */
 
@@ -16,11 +18,31 @@ h1:Permanent Marker
 @import url(https://fonts.bunny.net/css?family=alatsi:400);
 
 #logo-header {
-    height: 150px;
-    margin: 0 0 -50px -5px;
+    height: 75px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 5px;
 }
+
+#logo-text {
+    display: flex;
+    position: absolute;
+    top: -15px;
+    left: 90px;
+    color: #EEEEEE;
+    font-family: 'Permanent Marker';
+}
+
 #img-accueil {
     border: 2px black dotted;
+}
+
+header {
+    height: 80px;
+}
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #all-boards, #produits {
@@ -61,10 +83,6 @@ h1:Permanent Marker
     margin-left: auto;
     margin-right: auto;
     display: block;
-}
-
-#logo-header {
-    float: left;
 }
 
 .header-container {
@@ -108,6 +126,8 @@ nav li {
     display: inline-block;
     position: relative;
     z-index: 1;
+    top: -15px;
+    right: 150px;
 }
 
 #top {
@@ -138,7 +158,8 @@ nav a:hover {
     float: right;
     transition: ease-in-out 100ms;
     filter: invert(100%) sepia(11%) saturate(4807%) hue-rotate(197deg) brightness(106%) contrast(106%);
-    margin-top: -15px;
+    margin-top: -30px;
+    width: 32px;
 }
 
 .header-icons:hover {
@@ -234,4 +255,17 @@ body h2 {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
+}
+
+body #slogan {
+    font-size: w50px;
+}
+
+#produits h2, #all-boards h2 {
+    padding: 20px 0;
+    font-size: 50px;
+    background-color: #DDDDDD;
+    color: #121212;
+    top: -30px;
+    margin:40px 0 60px 0;
 }
