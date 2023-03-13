@@ -225,7 +225,7 @@ nav a:hover::before {
     transition: transform .2s;
 }
 
-.ajout-panier:hover {
+.ajout-panier:hover, .decouvrir:hover {
     transform: scale(1.2);
 }
 
@@ -234,7 +234,7 @@ nav a:hover::before {
     color: #121212;
 }
 
-#all-boards div, #produits div {
+#all-boards div {
 
     padding: 0 0 20px 0;
     background-color: #D0D0D0;
@@ -269,4 +269,18 @@ body #slogan {
     color: #121212;
     top: -30px;
     margin:40px 0 60px 0;
+}
+
+.decouvrir {
+    margin: 30px auto 0 auto;
+    border: #AEAEAE 3px solid;
+}
+
+#produits div {
+    padding: 0 0 20px 0;
+    border-radius: 10px;
+}
+
+.img-landing {
+    border-radius: 10px;
 }
