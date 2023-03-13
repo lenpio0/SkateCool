@@ -228,10 +228,15 @@ body #top div h1 {
 
 body #top div h2 {
     font-family: 'alatsi';
+<<<<<<< Updated upstream
     font-size: 36px ;
+=======
+    font-size: 80px !important;
+>>>>>>> Stashed changes
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
 }
+
