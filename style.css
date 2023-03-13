@@ -23,7 +23,7 @@ h1:Permanent Marker
     border: 2px black dotted;
 }
 
-#all-boards {
+#all-boards, #produits {
     display: flex;
     justify-content: space-evenly;  
     flex-wrap: wrap; 
@@ -180,7 +180,7 @@ nav a:hover::before {
     font-size: 24px;
 }
 
-#all-boards h2 {
+#all-boards h2, #produits h2 {
     width: 100%;
     text-align: center;
     font-size: 30px;
@@ -228,7 +228,7 @@ body #top div h1 {
 
 body h2 {
     font-family: 'alatsi';
-    font-size: 65px !important;
+    font-size: 65px ;
 }
 
 body {
