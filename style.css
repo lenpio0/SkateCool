@@ -111,7 +111,7 @@ nav li {
 }
 
 #top {
-    background-image: url("Accueil-Skate.jpg");
+    background-image: url("images/Accueil-Skate.jpg");
     background-size: 110%;
     height: 900px;
     color: white;
@@ -125,7 +125,7 @@ nav a {
     text-transform: uppercase;
     z-index: 1;
     font-family: Verdana, sans-serif;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 nav a:hover {
@@ -177,13 +177,13 @@ nav a:hover::before {
 
 #top div * {
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 #all-boards h2 {
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 }
 
@@ -194,7 +194,7 @@ nav a:hover::before {
     text-align: center;
     color: whitesmoke;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     border: white 3px solid;
     background-color: #bb85fe;
     z-index: 999;
@@ -219,16 +219,16 @@ nav a:hover::before {
     border-radius: 5px;
 }
 
-h1 {
+body #top div h1 {
     font-family: 'Permanent Marker';
-    font-size: 125px !important;
+    font-size: 120px ;
     margin-block-start: 0;
     margin-block-end: 0;
 }
 
-h2 {
+body #top div h2 {
     font-family: 'alatsi';
-    font-size: 42px !important;
+    font-size: 36px ;
 }
 
 body {
