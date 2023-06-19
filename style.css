@@ -18,16 +18,16 @@ p:
 @import url(https://fonts.bunny.net/css?family=alatsi:400);
 
 #logo-header {
-    height: 75px;
+    height: 60px;
     float: left;
-    margin-top: 2px;
-    margin-left: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
 }
 
 #logo-text {
     display: flex;
     position: absolute;
-    top: -15px;
+    top: -18px;
     left: 90px;
     color: #EEEEEE;
     font-family: 'Permanent Marker';
@@ -37,10 +37,6 @@ p:
     border: 2px black dotted;
 }
 
-header {
-    height: 80px;
-}
-
 p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -48,13 +44,14 @@ p {
 #all-boards, #produits {
     display: flex;
     justify-content: space-evenly;  
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 0 80px 0;
 }
 
 #footer {
     display: flex;
     justify-content: end;
-    margin: 30px 0 0 0;
+    padding: 10px 35px 10px 0;
     background-color: #dddddd;
 }
 
@@ -63,8 +60,8 @@ p {
     justify-content: end;
     margin-left: 10%;
     position: relative;
-    margin-right: 5%;
-    margin-top: -20px;
+    margin-right: 3%;
+    margin-top: -3px;
 }
 
 .footer-icons {
@@ -94,13 +91,12 @@ p {
 }
 
 header {
-    background-color:#121212 ;
-}
+    background-color:#121212;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    filter: drop-shadow(4px 2px 9px #000);
 
-header::after {
-    content : '';
-    display: table;
-    clear: both;
 }
  
 body {
@@ -113,8 +109,8 @@ body {
 }
 
 nav {
-    margin-left: 30rem;
-    margin-right: 30rem;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
@@ -124,21 +120,20 @@ nav ul {
 }
 
 nav li {
-    margin-left: 100px;
-    margin-top: 40px;
+    margin-left: 60px;
+    margin-right:60px;
+    margin-top: 15px;
     display: inline-block;
-    position: relative;
-    z-index: 1;
-    top: -15px;
-    right: 150px;
 }
 
 #top {
     background-image: url("images/Accueil-Skate.jpg");
     background-size: 110%;
-    height: 900px;
+    background-attachment: fixed; 
+    height: 770px;
     color: white;
-    padding: 120px 0;
+    padding: 140px 0 0 0;
+    background-position-y: -40px;
 }
 
 
@@ -178,10 +173,7 @@ nav a::before {
     height: 5px;
     width: 100%;
     background-color: #bb85fe;
-    z-index: 1;
     transition: all ease-in-out 250ms;
-    position: absolute;
-    top: 2px;
     border-radius: 30px;
     width: 0%;
 }
@@ -201,11 +193,11 @@ nav a:hover::before {
 
 #top div * {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #all-boards h2, #produits h2 {
-    width: 100%;
+    width: 90%;
     text-align: center;
     font-size: 30px;
     color: white;
@@ -285,4 +277,10 @@ body #slogan {
 
 .img-landing {
     border-radius: 10px;
+}
+
+#footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
